@@ -50,6 +50,7 @@ var internalFormatFuncs = map[Locale]internalFormatFunc{
 	LocaleLtLT: createCommonFormatFuncWithGenitive(LocaleLtLT),
 	LocaleEtEE: createCommonFormatFunc(LocaleEtEE),
 	LocaleHrHR: createCommonFormatFunc(LocaleHrHR),
+	LocaleSrRS: createCommonFormatFunc(LocaleSrRS),
 	LocaleLvLV: createCommonFormatFunc(LocaleLvLV),
 	LocaleSkSK: createCommonFormatFunc(LocaleSkSK),
 	LocaleThTH: createCommonFormatFunc(LocaleThTH),
