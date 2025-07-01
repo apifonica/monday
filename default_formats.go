@@ -278,6 +278,13 @@ const (
 	DefaultFormatHrHRDateTime = "2.1.2006. 15:04"
 	DefaultFormatHrHRTime     = "15:04"
 
+	DefaultFormatRsRSFull     = "Monday, 2. January 2006." // Croatian (Croatia)
+	DefaultFormatRsRSLong     = "2. January 2006."
+	DefaultFormatRsRSMedium   = "2. Jan 2006."
+	DefaultFormatRsRSShort    = "2.1.2006."
+	DefaultFormatRsRSDateTime = "2.1.2006. 15:04"
+	DefaultFormatRsRSTime     = "15:04"
+
 	DefaultFormatLvLVFull     = "Monday, 2006. gada 2. January" // Latvian (Latvia)
 	DefaultFormatLvLVLong     = "2006. gada 2. January"
 	DefaultFormatLvLVMedium   = "2006. g. 2. Jan."
@@ -355,6 +362,7 @@ var FullFormatsByLocale = map[Locale]string{
 	LocaleLtLT: DefaultFormatLtLTFull,
 	LocaleEtEE: DefaultFormatEtEEFull,
 	LocaleHrHR: DefaultFormatHrHRFull,
+	LocaleSrRS: DefaultFormatRsRSFull,
 	LocaleLvLV: DefaultFormatLvLVFull,
 	LocaleSkSK: DefaultFormatSkSKFull,
 	LocaleThTH: DefaultFormatThTHFull,
@@ -404,6 +412,7 @@ var LongFormatsByLocale = map[Locale]string{
 	LocaleLtLT: DefaultFormatLtLTLong,
 	LocaleEtEE: DefaultFormatEtEELong,
 	LocaleHrHR: DefaultFormatHrHRLong,
+	LocaleSrRS: DefaultFormatRsRSLong,
 	LocaleLvLV: DefaultFormatLvLVLong,
 	LocaleSkSK: DefaultFormatSkSKLong,
 	LocaleThTH: DefaultFormatThTHLong,
@@ -453,6 +462,7 @@ var MediumFormatsByLocale = map[Locale]string{
 	LocaleLtLT: DefaultFormatLtLTMedium,
 	LocaleEtEE: DefaultFormatEtEEMedium,
 	LocaleHrHR: DefaultFormatHrHRMedium,
+	LocaleSrRS: DefaultFormatRsRSMedium,
 	LocaleLvLV: DefaultFormatLvLVMedium,
 	LocaleSkSK: DefaultFormatSkSKMedium,
 	LocaleThTH: DefaultFormatThTHMedium,
@@ -502,6 +512,7 @@ var ShortFormatsByLocale = map[Locale]string{
 	LocaleLtLT: DefaultFormatLtLTShort,
 	LocaleEtEE: DefaultFormatEtEEShort,
 	LocaleHrHR: DefaultFormatHrHRShort,
+	LocaleSrRS: DefaultFormatRsRSShort,
 	LocaleLvLV: DefaultFormatLvLVShort,
 	LocaleSkSK: DefaultFormatSkSKShort,
 	LocaleUzUZ: DefaultFormatUzUZShort,
@@ -551,6 +562,7 @@ var DateTimeFormatsByLocale = map[Locale]string{
 	LocaleLtLT: DefaultFormatLtLTDateTime,
 	LocaleEtEE: DefaultFormatEtEEDateTime,
 	LocaleHrHR: DefaultFormatHrHRDateTime,
+	LocaleSrRS: DefaultFormatRsRSDateTime,
 	LocaleLvLV: DefaultFormatLvLVDateTime,
 	LocaleSkSK: DefaultFormatSkSKDateTime,
 	LocaleUzUZ: DefaultFormatUzUZDateTime,
@@ -603,6 +615,7 @@ var TimeFormatsByLocale = map[Locale]string{
 	LocalePlPL: DefaultFormatPlPLTime,
 	LocaleEtEE: DefaultFormatEtEETime,
 	LocaleHrHR: DefaultFormatHrHRTime,
+	LocaleSrRS: DefaultFormatRsRSTime,
 	LocaleLvLV: DefaultFormatLvLVTime,
 	LocaleSkSK: DefaultFormatSkSKTime,
 	LocaleThTH: DefaultFormatThTHTime,

@@ -48,6 +48,7 @@ const (
 	LocaleLtLT = "lt_LT" // Lithuanian (Lithuania)
 	LocaleEtEE = "et_EE" // Estonian (Estonia)
 	LocaleHrHR = "hr_HR" // Croatian (Croatia)
+	LocaleSrRS = "sr_RS" // Serbian (Serbia)
 	LocaleLvLV = "lv_LV" // Latvian (Latvia)
 	LocaleSkSK = "sk_SK" // Slovak (Slovakia)
 	LocaleThTH = "th_TH" // Thai (Thailand)
@@ -98,6 +99,7 @@ func ListLocales() []Locale {
 		LocaleLtLT,
 		LocaleEtEE,
 		LocaleHrHR,
+		LocaleSrRS,
 		LocaleLvLV,
 		LocaleSkSK,
 		LocaleThTH,

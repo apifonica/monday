@@ -102,6 +102,7 @@ var internalParseFuncs = map[Locale]internalParseFunc{
 	LocaleLtLT: createCommonParseFuncWithGenitive(LocaleLtLT),
 	LocaleEtEE: createCommonParseFunc(LocaleEtEE),
 	LocaleHrHR: createCommonParseFunc(LocaleHrHR),
+	LocaleSrRS: createCommonParseFunc(LocaleSrRS),
 	LocaleLvLV: createCommonParseFunc(LocaleLvLV),
 	LocaleSkSK: createCommonParseFunc(LocaleSkSK),
 	LocaleThTH: parseFuncThCommon(LocaleThTH),
@@ -393,6 +394,12 @@ func fillKnownWords() {
 	fillKnownDaysShort(shortDayNamesHrHR, LocaleHrHR)
 	fillKnownMonthsLong(longMonthNamesHrHR, LocaleHrHR)
 	fillKnownMonthsShort(shortMonthNamesHrHR, LocaleHrHR)
+
+	// Sr_RS: Serbian (Serbia)
+	fillKnownDaysLong(longDayNamesSrRS, LocaleSrRS)
+	fillKnownDaysShort(shortDayNamesSrRS, LocaleSrRS)
+	fillKnownMonthsLong(longMonthNamesSrRS, LocaleSrRS)
+	fillKnownMonthsShort(shortMonthNamesSrRS, LocaleSrRS)
 
 	// Lv_LV: Latvian (Latvia)
 	fillKnownDaysLong(longDayNamesLvLV, LocaleLvLV)
